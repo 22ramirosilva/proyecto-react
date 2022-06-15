@@ -1,6 +1,6 @@
 import React from 'react'
 import './Nav.css'
-import logoNav from '../../../Materiales/logo.png'
+import logoNav from '../../Materiales/logo.png'
 
 const Nav = () => {
     return (
@@ -11,7 +11,7 @@ const Nav = () => {
         <ul id="lista_nav">
             <li><b><a className="link_nav" href="#nosotros">Nosotros</a></b></li>
             <li><b><a className="link_nav" href="#noticias">Noticias</a></b></li>
-            <li><b><a className="link_nav" href="">Ayuda</a></b></li>
+            <li><b><a className="link_nav" href="#body">Ayuda</a></b></li>
         </ul>
 
         <button id="btn_ingresar">INGRESAR</button>

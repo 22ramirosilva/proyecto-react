@@ -1,0 +1,133 @@
+main {
+    grid-area: "nosotros";
+    background-color: #5298ff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55% 45%;
+}
+
+#nosotros {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #5298ff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 40% 40% 10%;
+    margin: 0 5%;
+}
+
+#oficina {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../../Materiales/oficina.png);
+    background-size: cover;
+    background-position: top;
+    margin: 0 0 3% 0;
+}
+
+#soluciones_empresas {
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+    padding: 3%;
+}
+
+#voluntariado {
+    grid-column: 2;
+    grid-row: 3;
+    background-image: url(../../Materiales/voluntariado.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 3% 0 0 0;
+}
+
+#soluciones_organizaciones {
+    grid-column: 1;
+    grid-row: 3;
+    color: white;
+    padding: 3%;
+}
+
+.titulos_nosotros {
+    margin-top: 0;
+}
+
+#categorias {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 3fr 5fr;
+}
+
+#categorias_titulo {
+    grid-row: 1;
+    margin: 4% 10% 0;
+}
+
+#lista_categorias {
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 15px;
+}
+
+#voluntario {
+    width: 200px;
+    height: 170px;
+    background: #dc3545;
+    color: white;
+    border-radius: 15px;
+}
+
+#donar {
+    width: 200px;
+    height: 170px;
+    background: #ff9c09;
+    color: white;
+    border-radius: 15px;
+}
+
+#reciclar {
+    width: 200px;
+    height: 170px;
+    background: #28a745;
+    color: white;
+    border-radius: 15px;
+}
+
+#llamados_laborales {
+    width: 200px;
+    height: 170px;
+    background: #17a2b8;
+    color: white;
+    border-radius: 15px;
+}
+
+.icono {
+    padding: 40px 10px 30px 40px;
+    width: 60px;
+}
+
+.icono_voluntario {
+    padding: 30px 40px;
+    width: 30px;
+}
+
+.icono_reciclar {
+    padding: 40px 10px 22px 40px;
+    width: 60px;
+}
+
+.icono_maletin {
+    padding: 40px 10px 16px 40px;
+    width: 60px;
+}
+
+.icono_mas {
+    width: 18px;
+    vertical-align: top;
+    margin: 22px 0 0 45px;
+}

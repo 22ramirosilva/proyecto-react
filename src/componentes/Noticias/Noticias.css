@@ -1,0 +1,190 @@
+#noticias {
+    grid-area: "noticias";
+    background-color: #5298ff;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr 3fr;
+}
+
+#seccion_noticias {
+    grid-row: 1;
+    text-align: center;
+    align-self: end;
+}
+
+#titulo_noticias {
+    font-size: 2em;
+    margin: 0%;
+}
+
+.ver_todas {
+    margin: 0%;
+    color: white;
+}
+.noticia {
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 5fr;
+}
+
+.noticia{
+    border-radius: 0 0 5% 5%; 
+}
+.text_noticia{
+    color: black;
+    margin: 10px;
+}
+#ver_mas_noticia{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#calendario_reloj{
+    display: flex;
+    justify-content: space-around;
+}
+.calendario_reloj{
+    display: flex;
+    align-items: center;
+}
+
+#not_1 {
+    background-image: url(../../Materiales/1.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;  
+}
+#not_2 {
+    background-image: url(../../Materiales/2.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_3 {
+    background-image: url(../../Materiales/3.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_4 {
+    background-image: url(../../Materiales/4.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_5 {
+    background-image: url(../../Materiales/5.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_6 {
+    background-image: url(../../Materiales/6.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_7 {
+    background-image: url(../../Materiales/7.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_8 {
+    background-image: url(../../Materiales/8.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_9 {
+    background-image: url(../../Materiales/9.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_10 {
+    background-image: url(../../Materiales/10.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_11 {
+    background-image: url(../../Materiales/11.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+#not_12 {
+    background-image: url(../../Materiales/12.jpg);
+    background-size: cover;
+    background-position: center;  
+    border-radius: 0 0 5% 5%;
+}
+
+
+
+
+/*---------------------CARROUSEL----------------------*/
+.container_carrousel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.carrousel {
+    width: 79%;
+    max-width: 120em;
+    background-color: #5298ff;
+    overflow: hidden;
+}
+
+.carrousel .grande {
+    width: 300%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+    transform: translateX(0%);
+}
+
+.carrousel .noticias {
+    width: calc(100% / 3);
+    min-height: 30vh;
+    background-color: #5298ff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.noticia {
+    width: 20%;
+    background-color: white;
+}
+
+.carrousel .puntos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-right: 2.5em;
+}
+
+.carrousel .punto {
+    width: 1em;
+    height: 1em;
+    background-color: whitesmoke;
+    margin: .2em;
+    list-style: none;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+.carrousel .punto.activo {
+    background-color: #1c78fd;
+}
