@@ -131,3 +131,83 @@ main {
     vertical-align: top;
     margin: 22px 0 0 45px;
 }
+
+
+
+
+@media (max-width: 414px){
+    main{
+        grid-template-rows: 40% 60%;
+    }
+
+    #lista_categorias{
+        padding-left: 0%;
+    }
+
+    #categorias{
+        grid-template-rows: 2fr 5fr;
+    }
+    
+    #nosotros {
+        background-color: #5298ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 5%;
+    }
+    #oficina {
+        margin: 5% 0 3% 0;
+        height: 15%;
+    }
+    #voluntariado {
+        margin: 3% 0 0 0;
+        height: 15%;
+    }
+}
+
+@media (max-width: 884px) and (min-width: 750px){
+
+    main{
+        grid-template-rows: 42% 58%;
+    } 
+}
+
+@media (max-width: 749px) and (min-width: 415px){    
+           
+    #nosotros {
+        background-color: #5298ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 5%;
+    }
+    
+    #oficina {   
+        margin: 0 0 3% 0;
+        height: 20%;
+    }
+    
+    #soluciones_empresas {
+        color: white;
+        padding: 3%;
+    }
+    
+    #voluntariado {
+        margin: 3% 0 0 0;
+        height: 20%;
+    }
+    
+    #soluciones_organizaciones {
+        color: white;
+        padding: 3%;
+        }
+    
+    #lista_categorias{
+        padding-left: 0%;
+    }
+    
+    #categorias{
+        grid-template-rows: 1fr 2fr;
+    } 
+               
+}

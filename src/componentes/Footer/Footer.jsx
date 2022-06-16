@@ -1,7 +1,7 @@
 import React from 'react';
+import './Footer.css';
 import laptopEscritorio from '../../Materiales/laptop-escritorio.jpg';
 import logoBlanco from '../../Materiales/logo-blanco.png';
-import './Footer.css';
 
 
 const Footer = () => {
@@ -41,10 +41,10 @@ const Footer = () => {
         <div id="footer">
             <a href="#body"><img id="logo_blanco" src={logoBlanco} alt="logo_blanco"/></a>
             <ul id="lista">
-                <li><a class="link_footer" href="#nosotros">Nosotros</a></li>
-                <li><a class="link_footer" href="#noticias">Noticias</a></li>
-                <li><a class="link_footer" href="#form_contacto">Contacto</a></li>
-                <li><a class="link_footer" href="">Terminos y condiciones</a></li>
+                <li><a className="link_footer" href="#nosotros">Nosotros</a></li>
+                <li><a className="link_footer" href="#noticias">Noticias</a></li>
+                <li><a className="link_footer" href="#form_contacto">Contacto</a></li>
+                <li><a className="link_footer" href="#nosotros">Terminos y condiciones</a></li>
             </ul>
             <div id="redes">
                 <p>Seguinos!</p>

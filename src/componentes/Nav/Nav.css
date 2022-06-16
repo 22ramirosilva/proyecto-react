@@ -49,3 +49,17 @@ nav {
 button:active {
     transform: translateY(1px);
 }
+
+
+
+@media (max-width: 414px){
+    #lista_nav{
+        display: block
+    }
+}
+
+@media (max-width: 749px) and (min-width: 415px){
+    #lista_nav{
+        display: block
+    }
+}

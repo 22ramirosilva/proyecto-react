@@ -1,0 +1,146 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 500ms ease;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 700px;
+    height: 450px;
+    box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row-reverse;
+    transition: all 500ms ease;
+    transform: translateY(150px);
+}
+
+.modal-registrar {
+    color: black;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    padding: 0 15px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.close:hover,
+.close:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modal-img {
+    background-image: url(../../Materiales/imagen-modal.JPG);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 0 0 20px
+}
+
+#modal-registrar {
+    background-color: whitesmoke;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+
+
+#flechaleft {
+    transform: scaleX(-1);
+    margin-left: 10px;
+}
+
+#registro {
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-emp {
+    color: #5298ff;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+#titulo-org {
+    color: #5227cc;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#empresa {
+    display: flex;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0px rgb(0 0 0 / 0.2);
+}
+
+#icono-maletin {
+    width: 15%;
+    background-color: #5298ff;
+    border-radius: 10px 0 0 10px;
+}
+
+#organizacion {
+    display: flex;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0px rgb(0 0 0 / 0.2);
+}
+
+#icono-persona {
+    width: 15%;
+    background-color: #7749f8;
+    border-radius: 10px 0 0 10px;
+}
+
+.flechita {
+    margin-left: 80%;
+}
+
+
+
+@media (max-width: 414px) {
+    .modal-content {
+        width: 100%;
+    }
+
+    #modal-img {
+        width: 0%;
+    }
+
+    #modal-registrar {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 749px) and (min-width: 415px) {
+    .modal-content {
+        width: 390px;
+    }
+
+    #modal-img {
+        width: 0%;
+    }
+
+    #modal-registrar {
+        width: 100%;
+        border-radius: 20px;
+    }
+}

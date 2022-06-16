@@ -188,3 +188,51 @@
 .carrousel .punto.activo {
     background-color: #1c78fd;
 }
+
+
+
+@media (max-width: 749px){
+    .noticia_dos , .noticia_tres , .noticia_cuatro{
+        display: none;
+    }
+    .noticia{
+        width: 70%;
+    }   
+}
+
+
+@media (max-width: 414px){
+    .noticia_dos , .noticia_tres , .noticia_cuatro{
+        display: none;
+    }
+    
+    .noticia{
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 885px) and (max-width: 1400px) {
+    .noticia_cuatro {
+        display: none;
+    }
+    .noticia{
+        width: 30%;
+    }
+}
+
+@media (max-width: 884px) and (min-width: 750px){
+    .noticia_tres, .noticia_cuatro {
+        display: none;
+    }
+    
+    .noticia{
+        width: 40%;
+    }
+}
+
+@media (max-width: 749px) and (min-width: 415px){
+    .noticia_cuatro , .noticia_tres{
+        display: none;
+    }
+}

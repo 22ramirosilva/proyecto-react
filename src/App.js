@@ -13,7 +13,6 @@ function App() {
       <Main />
       <Noticias />
       <Footer />
-
     </div>
   );
 }

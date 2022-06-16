@@ -17,7 +17,7 @@ footer {
     grid-column: 1;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     margin-right: 10px;
 }
 
@@ -103,4 +103,50 @@ footer {
 #redes {
     grid-column: 3;
     grid-row: 1;
+}
+
+
+
+@media (max-width: 414px){
+    #form{
+        display: block;
+    }
+    #formulario {
+        grid-row: 1;
+        background-color: whitesmoke;
+        width: 100%;
+        height: 100%;
+    }
+
+    #formulario{
+        display: block;
+    }
+    #form_img{
+        display: none;
+    }
+    #name, #email, textarea{
+        margin-right: 0px;
+    }
+    
+    #logo_blanco {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 749px) and (min-width: 415px){
+    #formulario{
+        display: block;
+    }
+    #form_img{
+        display: none;
+    }
+    #name, #email, textarea{
+        margin-right: 0px;
+    }
+    
+    #logo_blanco {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
 }
